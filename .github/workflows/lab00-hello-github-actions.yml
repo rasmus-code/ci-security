@@ -9,3 +9,6 @@ jobs:
     steps:
       - name: Run hello world
         run: echo "🎉 Step of the job is running on ${{ runner.os }}!"
+      
+      - name: Run some text
+        run: echo "Try to print text with GitHub actions!"
